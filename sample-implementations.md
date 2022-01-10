@@ -153,4 +153,4 @@ The second case is applied to the remaining fields and takes the value:
 
 
 The example of the GFI response utilising the template can be seen by clicking link below which is an example of a standard GFI request
-https://mapy.geoportal.gov.pl/wss/testbed/wmsdownload/mapserver?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetFeatureInfo&BBOX=46.73160157058823216,13.42562750000000094,56.94499842941176126,25.14667249999999754&CRS=EPSG:4326&WIDTH=1275&HEIGHT=1111&LAYERS=OrthoimageryIndex&STYLES=&FORMAT=image/png&QUERY_LAYERS=OrthoimageryIndex&INFO_FORMAT=text/html&I=929&J=497 
+https://mapy.geoportal.gov.pl/wss/testbed/wmsdownload/arcgis?SERVICE=WMS&request=GetFeatureInfo&version=1.3.0&layers=0&styles=&crs=EPSG:2180&bbox=602820.588413512,456315.157841157,615216.3423716865,469650.18451121036&width=1008&height=937&format=image/jpeg&transparent=true&query_layers=0&i=392&j=458&INFO_FORMAT=text/html
