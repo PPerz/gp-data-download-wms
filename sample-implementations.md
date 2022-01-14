@@ -143,17 +143,21 @@ In the file above there are two conditions based on XSLT according to which the 
 		</xsl:attribute>Click here to download
 	</a>
 </xsl:when>
+
 ```
 
+
 The second case is applied to the remaining fields and takes the value:
-	
+
 ```
 <xsl:otherwise>
 	<strong>
 		<xsl:value-of select="esri_wms:FieldName" /></strong><br />
 	<xsl:value-of select="esri_wms:FieldValue" /><br />
 </xsl:otherwise>
+
 ```
+
 
 The example of the GFI response utilising the template can be seen by clicking link below which is an example of a standard GFI request
 https://mapy.geoportal.gov.pl/wss/testbed/wmsdownload/arcgis?SERVICE=WMS&request=GetFeatureInfo&version=1.3.0&layers=0&styles=&crs=EPSG:2180&bbox=602820.588413512,456315.157841157,615216.3423716865,469650.18451121036&width=1008&height=937&format=image/jpeg&transparent=true&query_layers=0&i=392&j=458&INFO_FORMAT=text/html
